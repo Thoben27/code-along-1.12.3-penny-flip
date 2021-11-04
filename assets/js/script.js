@@ -1,11 +1,24 @@
 // TODO: Declare any global variables we need
+let headsCount = 0
+let tailsCount = 0
+let flipcount = 0
+
+let flip = document.querySelector('.buttonFlip')
+flip.addEventListener('click', function (){
+    flipsCount++
+    console.log(flipsCount)
+}
+
+let clear = document.querySelector('.buttonClear')
+clear.addEventListener('click', function(){
+// need to finish clearing code.
 
 
+
+}
 document.addEventListener('DOMContentLoaded', function () {
-    // This is just a sanity check to make sure your JavaScript script is getting loaded
-    // You can remove it once you see it in your browser console in the developer tools
-    console.log('Hi')
-
+   
+    let isHeads = Math.random() <0.5
     // TODO: Add event listener and handler for flip and clear buttons
 
     // Flip Button Click Handler

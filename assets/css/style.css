@@ -36,9 +36,14 @@ h1 {
 button {
     font-size: 1.5em;
     margin-right: 10px;
-    border-radius: 10px;
+    border-radius: 10px;  
 }
-
+.buttonFlip {
+    background: linear-gradient(to bottom left, lightblue, white);
+}
+.buttonClear {
+    background: linear-gradient(to bottom left, orange, white)
+}
 #flip,
 #roll {
     background: linear-gradient(to bottom left, lightblue, white);
